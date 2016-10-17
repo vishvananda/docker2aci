@@ -1,37 +1,37 @@
-hash: d088a750a1a81b463b0056b81edd3ce849b9bef0eb44861f67041e13b95bade0
-updated: 2016-07-06T16:33:39.979049165+02:00
+hash: bb06d4eb9b26ddb217ba46a9c1924a870e9abbf3259dabffd19fa4407b7d769c
+updated: 2016-10-17T14:22:17.272063593-07:00
 imports:
 - name: github.com/appc/spec
-  version: fd5e3d8f5d596c6fbd506e80b5e13ba8a97b704c
+  version: f329150233aa3ac6c83ab5ba02a2b5a8bd03d365
   subpackages:
   - aci
   - pkg/acirenderer
-  - schema
-  - schema/types
-  - pkg/tarheader
-  - schema/common
   - pkg/device
+  - pkg/tarheader
+  - schema
+  - schema/common
+  - schema/types
 - name: github.com/coreos/go-semver
-  version: 6fe83ccda8fb9b7549c9ab4ba47f47858bc950aa
+  version: 294930c1e79c64e7dbe360054274fdad492c8cf5
   subpackages:
   - semver
 - name: github.com/coreos/ioprogress
-  version: 4637e494fd9b23c5565ee193e89f91fdc1639bc0
+  version: e7fc03058804de5488baed8df5b89f3924b9ec9a
 - name: github.com/coreos/pkg
   version: 7f080b6c11ac2d2347c3cd7521e810207ea1a041
   subpackages:
   - progressutil
 - name: github.com/docker/distribution
-  version: f4296d55fcefdf842a4a2fce41cbf2aef3e03403
+  version: 12acdf0a6c1e56d965ac6eb395d2bce687bf22fc
   subpackages:
-  - reference
   - digest
+  - reference
 - name: github.com/gogo/protobuf
   version: 4168943e65a2802828518e95310aeeed6d84c4e5
   subpackages:
   - proto
 - name: github.com/klauspost/compress
-  version: 14eb9c4951195779ecfbec34431a976de7335b0a
+  version: 006acde2c5d283d2f8b8aa03d8f0cd2891c680cf
   subpackages:
   - flate
 - name: github.com/klauspost/cpuid
@@ -40,6 +40,10 @@ imports:
   version: 19b0b332c9e4516a6370a0456e6182c3b5036720
 - name: github.com/klauspost/pgzip
   version: 95e8170c5d4da28db9c64dfc9ec3138ea4466fd4
+- name: github.com/opencontainers/image-spec
+  version: b472d5f4067ddca5cfbfea148dfaf7b42d43c5f0
+  subpackages:
+  - specs-go
 - name: github.com/spf13/pflag
   version: 94e98a55fb412fcbcfc302555cb990f5e1590627
 - name: go4.org
@@ -47,15 +51,15 @@ imports:
   subpackages:
   - errorutil
 - name: golang.org/x/crypto
-  version: 0c565bf13221fb55497d7ae2bb95694db1fd1bff
+  version: a7ead6ddf06233883deca151dffaef2effbf498f
   subpackages:
   - ssh/terminal
 - name: gopkg.in/inf.v0
   version: 3887ee99ecf07df5b447e9b00d9c0b2adaa9f3e4
 - name: k8s.io/kubernetes
-  version: 9990f843cd62caa90445cf76b07d63ba7b5c86fd
+  version: 02fe987a687cd5803f493f3ef2ef707f525f98fd
   subpackages:
   - pkg/api/resource
   - pkg/conversion
   - third_party/forked/reflect
-devImports: []
+testImports: []
